@@ -1,5 +1,5 @@
 node default {
-  file { '/home/README':
+  file { '/home/vagrant/README':
     ensure => file,
     content => 'This is a readme',
     owner   => 'root',
